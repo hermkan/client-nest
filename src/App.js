@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 // const API_URL = "http://localhost:8000/messages";
-const API_URL_PROD = "messages";
+const API_URL_PROD = "https://testdeploynest-production.up.railway.app/messages";
 
 function App() {
   const [messages, setMessages] = useState([]);
